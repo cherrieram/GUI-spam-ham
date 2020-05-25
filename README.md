@@ -11,23 +11,22 @@ https://realpython.com/python-virtual-environments-a-primer/
 
 if you are using virtualenv then,
 
- python3 -m venv virtual_env_name
+  	python3 -m venv virtual_env_name
 
- activate  virtual_env_name
+  	activate  virtual_env_name
 	
 If you are using conda enviroment then,
 
- conda create --name virtual_env_name python=3.7
+  	conda create --name virtual_env_name python=3.7
 
- conda activate virtual_env_name
+  	conda activate virtual_env_name
 	
 Then after activating, run following command for dependencies of app
 
- pip install nltk pandas numpy 
+ 	pip install nltk pandas numpy 
 
- python -m nltk.downloader stopwords
-
- python -m nltk.downloader puntk
+	python -m nltk.downloader stopwords
+	python -m nltk.downloader puntk
  
 after completion of setup run
 
